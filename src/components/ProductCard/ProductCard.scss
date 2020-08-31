@@ -1,0 +1,9 @@
+@import '../../global';
+
+.product-card {
+  height: 100%;
+
+  .title {
+    @include ellipsis();
+  }
+}

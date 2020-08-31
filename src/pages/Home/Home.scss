@@ -1,0 +1,5 @@
+@import '../../global';
+
+.homepage-product-title {
+  @include ellipsis();
+}

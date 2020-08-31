@@ -1,0 +1,13 @@
+@import "~bulma";
+@import "~react-toastify/dist/ReactToastify.css";
+
+.page-main {
+  min-height: calc(100vh - 56px /* header height */ - 168px /* footer height */);
+}
+
+@mixin ellipsis ($lines: 3){
+  display: -webkit-box;
+  overflow: hidden;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: $lines;
+}

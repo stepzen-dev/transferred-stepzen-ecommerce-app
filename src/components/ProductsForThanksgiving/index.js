@@ -35,7 +35,7 @@ const ProductsForThanksgiving = () => {
       <h2 className="is-size-2">Thanksgiving Products</h2>
       <div className="columns">
         {products.map((product) => (
-          <div className="column is-3" key={`featured_product_${product.id}`}>
+          <div className="column is-4" key={`featured_product_${product.id}`}>
             <div className="card">
               <div className="card-image">
                 <figure className="image is-4by3">
